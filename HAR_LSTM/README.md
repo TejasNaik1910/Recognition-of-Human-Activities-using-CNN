@@ -239,7 +239,7 @@ print("The dataset is therefore properly normalised, as expected, but not yet on
 
 
 
-## Hooray, now train the neural network:
+## Training the neural network:
 
 
 ```python
@@ -316,56 +316,7 @@ print("FINAL RESULT: " + \
 
 ```
 
-    WARNING:tensorflow:From <ipython-input-19-3339689e51f6>:9: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
-    Instructions for updating:
-    Use `tf.global_variables_initializer` instead.
-    Training iter #1500:   Batch Loss = 5.416760, Accuracy = 0.15266665816307068
-    PERFORMANCE ON TEST SET: Batch Loss = 4.880829811096191, Accuracy = 0.05632847175002098
-    Training iter #30000:   Batch Loss = 3.031930, Accuracy = 0.607333242893219
-    PERFORMANCE ON TEST SET: Batch Loss = 3.0515167713165283, Accuracy = 0.6067186594009399
-    Training iter #60000:   Batch Loss = 2.672764, Accuracy = 0.7386666536331177
-    PERFORMANCE ON TEST SET: Batch Loss = 2.780435085296631, Accuracy = 0.7027485370635986
-    Training iter #90000:   Batch Loss = 2.378301, Accuracy = 0.8366667032241821
-    PERFORMANCE ON TEST SET: Batch Loss = 2.6019773483276367, Accuracy = 0.7617915868759155
-    Training iter #120000:   Batch Loss = 2.127290, Accuracy = 0.9066667556762695
-    PERFORMANCE ON TEST SET: Batch Loss = 2.3625404834747314, Accuracy = 0.8116728663444519
-    Training iter #150000:   Batch Loss = 1.929805, Accuracy = 0.9380000233650208
-    PERFORMANCE ON TEST SET: Batch Loss = 2.306251049041748, Accuracy = 0.8276212215423584
-    Training iter #180000:   Batch Loss = 1.971904, Accuracy = 0.9153333902359009
-    PERFORMANCE ON TEST SET: Batch Loss = 2.0835530757904053, Accuracy = 0.8771631121635437
-    Training iter #210000:   Batch Loss = 1.860249, Accuracy = 0.8613333702087402
-    PERFORMANCE ON TEST SET: Batch Loss = 1.9994492530822754, Accuracy = 0.8788597583770752
-    Training iter #240000:   Batch Loss = 1.626292, Accuracy = 0.9380000233650208
-    PERFORMANCE ON TEST SET: Batch Loss = 1.879166603088379, Accuracy = 0.8944689035415649
-    Training iter #270000:   Batch Loss = 1.582758, Accuracy = 0.9386667013168335
-    PERFORMANCE ON TEST SET: Batch Loss = 2.0341007709503174, Accuracy = 0.8361043930053711
-    Training iter #300000:   Batch Loss = 1.620352, Accuracy = 0.9306666851043701
-    PERFORMANCE ON TEST SET: Batch Loss = 1.8185184001922607, Accuracy = 0.8639293313026428
-    Training iter #330000:   Batch Loss = 1.474394, Accuracy = 0.9693333506584167
-    PERFORMANCE ON TEST SET: Batch Loss = 1.7638503313064575, Accuracy = 0.8747878670692444
-    Training iter #360000:   Batch Loss = 1.406998, Accuracy = 0.9420000314712524
-    PERFORMANCE ON TEST SET: Batch Loss = 1.5946787595748901, Accuracy = 0.902273416519165
-    Training iter #390000:   Batch Loss = 1.362515, Accuracy = 0.940000057220459
-    PERFORMANCE ON TEST SET: Batch Loss = 1.5285792350769043, Accuracy = 0.9046487212181091
-    Training iter #420000:   Batch Loss = 1.252860, Accuracy = 0.9566667079925537
-    PERFORMANCE ON TEST SET: Batch Loss = 1.4635565280914307, Accuracy = 0.9107565879821777
-    Training iter #450000:   Batch Loss = 1.190078, Accuracy = 0.9553333520889282
-    ...
-    PERFORMANCE ON TEST SET: Batch Loss = 0.42567864060401917, Accuracy = 0.9324736595153809
-    Training iter #2070000:   Batch Loss = 0.342763, Accuracy = 0.9326667189598083
-    PERFORMANCE ON TEST SET: Batch Loss = 0.4292983412742615, Accuracy = 0.9273836612701416
-    Training iter #2100000:   Batch Loss = 0.259442, Accuracy = 0.9873334169387817
-    PERFORMANCE ON TEST SET: Batch Loss = 0.44131210446357727, Accuracy = 0.9273836612701416
-    Training iter #2130000:   Batch Loss = 0.284630, Accuracy = 0.9593333601951599
-    PERFORMANCE ON TEST SET: Batch Loss = 0.46982717514038086, Accuracy = 0.9093992710113525
-    Training iter #2160000:   Batch Loss = 0.299012, Accuracy = 0.9686667323112488
-    PERFORMANCE ON TEST SET: Batch Loss = 0.48389002680778503, Accuracy = 0.9138105511665344
-    Training iter #2190000:   Batch Loss = 0.287106, Accuracy = 0.9700000286102295
-    PERFORMANCE ON TEST SET: Batch Loss = 0.4670214056968689, Accuracy = 0.9216151237487793
-    Optimization Finished!
-    FINAL RESULT: Batch Loss = 0.45611169934272766, Accuracy = 0.9165252447128296
-
-
+   
 ## Training is good, but having visual insight is even better:
 
 Okay, let's plot this simply in the notebook for now.
